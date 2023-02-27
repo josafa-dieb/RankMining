@@ -1,0 +1,72 @@
+Baus:
+  1:
+    #rank que pode spawnar esse bau
+    rank: 0
+    comandos:
+    - "@console, money give %player% 1500"
+    - "@player, money"
+    itens:
+      1:
+        id: 276
+        data: 0
+        quantidade: 1
+        nome: "&cEspada Fantastica  %rank%"
+        lore:
+        - "&c"
+        - "&c* &aEspada Fantastica &c*"
+        - "&c"
+        encantos:
+        - "DAMAGE_ALL-5"
+        #isto-e-uma-porcao
+        porcao: false
+        #se-isto-for-uma-porcao-adicione-os-efeitos-abaixo:
+        efeitos: []
+      2:
+        id: 373
+        data: 0
+        quantidade: 1
+        nome: "&cPorcao Fantastica  %rank%"
+        lore:
+        - "&c"
+        - "&c* &aPorcao Fantastica &c*"
+        - "&c"
+        encantos: []
+        porcao: true
+        efeitos:
+        - "BLINDNESS-60-2-false"      
+  2:
+    rank: 1
+    comandos:
+    - "@console, money give %player% 1500"
+    - "@player, money"
+    itens:
+      1:
+        id: 276
+        data: 0
+        quantidade: 1
+        nome: "&cEspada Fantastica  %rank%"
+        lore:
+        - "&c"
+        - "&c* &aEspada Fantastica &c*"
+        - "&c"
+        encantos:
+        - "DAMAGE_ALL-5"
+        #isto-e-uma-porcao
+        porcao: false
+        #se-isto-for-uma-porcao-adicione-os-efeitos-abaixo:
+        efeitos: []
+      2:
+        id: 373
+        #esse data representa posção de splash
+        data: 16462 
+        quantidade: 1
+        nome: "&cPorcao Fantastica  %rank%"
+        lore:
+        - "&c"
+        - "&c* &aPorcao Fantastica &c*"
+        - "&c"
+        encantos: []
+        porcao: true
+        efeitos:
+        #EFEITO-TEMPO-LEVEL-SOBRESCREVER DE EFEITOS
+        - "BLINDNESS-60-20-true"

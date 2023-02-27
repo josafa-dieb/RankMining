@@ -1,0 +1,42 @@
+#mundo onde o plugin vai estar funcionando
+Mundos-Liberado:
+- "world"
+- "world_the_end"
+Comando:
+  mensagem: "&aEspere %segundos% para usar denovo esse comando"
+  delay: 5
+Subiu-rank: "&avoce subiu para o rank &f%rank%&a com mais de &f%blocos%&a blocos quebrados!"
+Blocos-Especificos: true
+#remove o bau automaticamente em X segundos
+Remover-bau: true
+#segundos que vai demorar pra remover o bau
+Segundos-remover-bau: 40
+#se true dropa os itens do bau se false nao dropa
+Dropar-itens-do-bau: true
+Efeitos:
+  particulas: true
+  som: true
+#Recomendado dar 1 ponto por bloco caso n, os baus nao vao funcionar corretamente
+Blocos:
+#ID:DATA, PTS
+- "21:0, 1"
+- "1:0, 1"
+- "2:0, 1"
+Rank:
+  config:
+    inicial: 0
+#o ultimo rank, e crucial para que o plugin acontece corretamente
+    ultimo: 2
+    mensagem-rank: 
+    - "&c"
+    - "&7* &aVocê está no rank nível &f%rank%&a com &f%blocks%/%blocosNextRank%&a quebrado."
+    - "&7* &aFalta apenas &f%RestBlock% &ablocos para vc ir para o nível &f%nextRank%&a."
+    - "&c"
+  ranks:
+#crie quantos ranks desejar seguindo o padrao dos que estao abaixo
+    0:
+      valor: 0
+    1: 
+      valor: 1000
+    2: 
+      valor: 2000

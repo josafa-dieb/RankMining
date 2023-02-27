@@ -1,0 +1,7 @@
+name: CastRankMining
+version: 1.0
+main: com.devcastt.rankmining.Main
+
+commands:
+  blocos:
+    description: mostra quantos bloco quebrou e falta pra upar
