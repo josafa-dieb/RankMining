@@ -1,6 +1,6 @@
 name: CastRankMining
 version: 1.0
-main: com.devcastt.rankmining.Main
+main: dev.jdieb.rankmining.Main
 
 commands:
   blocos:
